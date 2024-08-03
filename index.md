@@ -1,123 +1,65 @@
----
-layout: default
----
+# Artificial Intelligence and Machine Learning | Oxford International Study Abroad Programme
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Artificial Intelligence and Machine Learning
+**Oxford International Study Abroad Programme**
 
-[Link to another page](./another-page.html).
+The course will provide an overview of fundamental concepts and algorithms in machine learning. Mathematical and coding exercises will be provided to deepen understanding of these concepts and algorithms.
 
-There should be whitespace between paragraphs.
+## Material
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+- Introduction to machine learning and its applications
+- Supervised learning: linear and nonlinear regression
+- Supervised learning: logistic regression and multi-class classification
+- Introduction to neural networks
+- Multi layer perceptrons (MLPs)
+- Activation functions
+- Feedforward neural networks and backpropagation
+- Introduction to convolutional neural networks for computer vision
+- Image representations
+- Convolutional operators and kernels, max pooling, dense layers, depth vs width
+- Dimension calculations and parameter count
+- Popular datasets and model zoos
+- Challenges: Transfer learning and Adversarial attacks
 
-# Header 1
+## Instructor
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+- Dr. Adel Bibi (Email: adel.bibi@eng.ox.ac.uk)
 
-## Header 2
+## Notes
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+- NOTE 1: We will go through the following content in 4 days. We will use [google colab](https://colab.research.google.com/) as a platform for exercises.
+- NOTE 2: For each colab file below, with a preappended title `Exercise:`, you should make a copy in your own google drive to edit & run.
+- NOTE 3: The coffee break over the four days will always be from 10:30AM to 11:00AM.
 
-### Header 3
+## Background Review
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+- Colab/Markdown/latex intro [env intro](https://colab.research.google.com/drive/1DHVIdXVouXhQmnusmR-JLGBqT2_TsxCF?usp=sharing)
+- Coding exercise: Python Basics [Exercise: Numbers](https://drive.google.com/file/d/1jwKcCfSYo0cB5miyBigqJ7B707VG6Sup/view?usp=sharing) [Exercise: Strings](https://drive.google.com/file/d/10r5pCMSn-Lr_uet89PWRJ2vVaw6T8DYY/view?usp=sharing) [Exercise: Lists](https://drive.google.com/file/d/1xdjetPYlMnRRBYRLD3wbU0l7jte7mkRW/view?usp=sharing) [Exercise: Dictionaries](https://drive.google.com/file/d/1cWENNmiT6uIncOZ-B3NegMGkT1ocpkeM/view?usp=sharing) [Exercise: Tuples](https://drive.google.com/file/d/1wlZkdZ41UOrIrPOyO97V0QIGDSoSPIGz/view?usp=sharing) [Exercise: IF,FOR, and While](https://drive.google.com/file/d/1_A8Fi7qVS1wYSOHKnBdIwuhAZMqSkyKf/view?usp=sharing) [Exercise: Numpy](https://drive.google.com/file/d/1dyWqkvfsNz6y7pGeoC4hdkshnaJ7U80p/view?usp=sharing)
+- For background review on linear algebra and probability, try solving the following [homework](https://drive.google.com/file/d/1hbyBNTDXqEk_6YGf47K0zgwJ2z9ilPZl/view?usp=sharing)
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## Lectures
 
-#### Header 4
+### Day 1: July 31st, 2023
+- [Lecture #1: AI and Machine Learning Applications](https://docs.google.com/presentation/d/1LMnpF8G8BmttVlG22AAL3bpVYPjjyGuTvM67_YU_drM/edit?usp=sharing)
+- [Lecture #2: Regression](https://drive.google.com/file/d/1FuLpWTSjOARHAzDuqUaF5o6ar7WsjexJ/view?usp=sharing)
+- [Lecture #3: Logistic regression](https://drive.google.com/file/d/1byR2GSwnCRF4Myvhqcb3-SSm4Or5jbZf/view?usp=sharing)
+- Excercise #1: [Regression](https://drive.google.com/file/d/1XRO0TpC31WpF7dV7opbtD4Tw8hHLvtN2/view?usp=sharing), [Solutions](https://drive.google.com/file/d/1WplVL31nTY9WaU7dJ3noiBFu2DhGx4fW/view?usp=sharing)
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+### Day 2: August 1st, 2023
+- Lecture #4: [Neural Networks](https://drive.google.com/file/d/13wPqHde0TnY-5jXCeQh4HjYyOdPToYk9/view?usp=sharing)
+- Exercise #2: [Logistic regression](https://drive.google.com/file/d/1R9kE11F_rIgEKmr3nvKz3RNHA3m5iMpA/view?usp=sharing)
+- Exercise #3: [Neural Networks](https://drive.google.com/file/d/1EKtPcfTxTcZ46JwE8YR-58FnnODw8-eB/view?usp=sharing), [Solutions](https://drive.google.com/file/d/1K6ebRGxZnToYWoSFoHhIM-HOuQl6AP9i/view?usp=sharing)
 
-##### Header 5
+### Day 3: August 2nd, 2023
+- Lecture #5: [Convolutional Neural Networks (1)](https://drive.google.com/file/d/176MEaMWOqbliUjQHDmaFX-6t-6ZAnx4_/view?usp=sharing)
+- Exercise #4: [Training a ConvNetwork](https://drive.google.com/file/d/1lJKZvNdUbQbj5ZyaL9dOw3BEUhvnn8SD/view?usp=sharing), [Solutions](https://drive.google.com/file/d/18HYDgW1le317Wz5EHj2EbbSbinkNANmn/view?usp=sharing)
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+### Day 4: August 3rd, 2023
+- Lecture #6: [Convolutional Neural Networks (2)](https://drive.google.com/file/d/1pdSECiIdSeg-ABQ3GECDJDNiatHqbf8h/view?usp=sharing)
+- Exercise #5: [Transfer learning](https://drive.google.com/file/d/1qxZRdBY0l-u3ld4m1jZgyJdK8WrZclqj/view?usp=sharing)
+- Exercise #6: [Adversarial attacks](https://drive.google.com/file/d/17Kjn0bQkULx3OlrzwGcjpbi_RN-zUvLW/view?usp=sharing)
 
-###### Header 6
+## Acknowledgments
+Thanks to [Hasan Hammoud](https://www.linkedin.com/in/hasan-abed-al-kader-hammoud-56392a147/) for the help in preparing exercises.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+This page was generated by [GitHub Pages](https://pages.github.com).
